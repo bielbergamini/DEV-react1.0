@@ -1,0 +1,113 @@
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.monitor-animado {
+  animation: float 2s ease-in-out infinite;
+}
+
+
+.devforce-gradient {
+  background: linear-gradient(
+    270deg,
+    #9333ea,
+    #4f46e5,
+    #0ea5e9,
+    #4f46e5,
+    #9333ea
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  animation: gradientShift 5s ease infinite;
+}
+.botao-contato {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #fdfdfd;
+  background-color: transparent;
+  border: 2px solid #bb86fc;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(187, 134, 252, 0.2);
+  backdrop-filter: blur(3px);
+}
+
+.botao-contato:hover {
+  background: linear-gradient(90deg, #8e35fb, #4000ff);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(127, 90, 240, 0.6);
+  transform: scale(1.05);
+}
+
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+  
+}
+
+.card-glow {
+  position: relative;
+  border-radius: 15px;
+  padding: 2px; /* espaço para a borda */
+  background: linear-gradient(
+    270deg,
+    #9333ea,
+    #4f46e5,
+    #0ea5e9,
+    #4f46e5,
+    #9333ea
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 5s ease infinite;
+}
+
+.card-glow .inner-content {
+  background-color: rgba(15, 15, 35, 0.95); /* fundo do card */
+  border-radius: 13px;
+  padding: 20px;
+  height: 100%;
+  color: white;
+}
+
+.devforce-gradient2 {
+  background: linear-gradient(
+    270deg,
+    #fbff00,
+    #ffea00,
+    #9333ea,
+    #eeff00,
+    #ffff00
+  );
+    background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  animation: gradientShift 5s ease infinite;
+}
+
+

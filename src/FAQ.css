@@ -1,0 +1,71 @@
+.faq-section{
+  background:#0b0b0c;
+  color:#fff;
+  padding:clamp(40px,6vw,80px) 0;
+}
+
+.faq-title{
+  font-weight:800;
+  letter-spacing:.3px;
+  font-size:clamp(1.8rem,3.5vw,2.4rem);
+  margin-bottom:.25rem;
+}
+.df-gradient{
+  background:linear-gradient(90deg,#6d28d9,#9b6cff);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+.faq-sub{
+  color:rgba(255,255,255,.7);
+  margin-bottom:clamp(18px,3vw,28px);
+  font-size:clamp(.95rem,1.6vw,1.05rem);
+}
+
+/* ---------- Accordion dark com glass ---------- */
+.faq-accordion .faq-item{
+  background:rgba(20,20,22,.75);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;
+  overflow:hidden;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  box-shadow:0 8px 24px rgba(0,0,0,.35);
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  margin-bottom:14px;
+}
+.faq-accordion .faq-item:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 32px rgba(0,0,0,.45);
+  border-color:rgba(255,255,255,.12);
+}
+
+/* botão do header */
+.faq-accordion .accordion-button{
+  background:transparent;
+  color:#eaeaf5;
+  padding:1rem 1.25rem;
+  font-weight:600;
+  box-shadow:none;
+}
+.faq-accordion .accordion-button:not(.collapsed){
+  background:linear-gradient(120deg, rgba(30,30,34,.35), rgba(18,18,22,.35));
+  color:#fff;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+/* ícone (chevron) com cor roxa */
+.faq-accordion .accordion-button::after{
+  filter: hue-rotate(260deg) saturate(160%);
+  opacity:.9;
+}
+
+/* corpo */
+.faq-accordion .accordion-body{
+  color:rgba(255,255,255,.78);
+  font-size:clamp(.95rem,1.4vw,1rem);
+  line-height:1.7;
+}
+
+/* remove bordas padrão do bootstrap */
+.faq-accordion .accordion-item{
+  border:0;
+}
