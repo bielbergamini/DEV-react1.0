@@ -93,8 +93,8 @@ function AppNavbar() {
           <Nav className="ms-auto nav-links-initial">
             <Nav.Link href="#sobre">Sobre</Nav.Link>
             <Nav.Link href="#servicos">Serviços</Nav.Link>
-            <Nav.Link href="#resultados">Resultados</Nav.Link>
-            <Nav.Link href="#faq">FAQ</Nav.Link>
+            <Nav.Link href="#faq">Resultados</Nav.Link>
+            <Nav.Link href="#resultados">FAQ</Nav.Link>
             <Nav.Link href="#contato" as={Button} className="custom-contact-btn ms-3 fw-bold">
               Contato
             </Nav.Link>
@@ -140,7 +140,8 @@ function AppNavbar() {
           <Nav className="flex-column">
             <Nav.Link href="#sobre" onClick={handleCloseOffcanvas}>Sobre</Nav.Link>
             <Nav.Link href="#servicos" onClick={handleCloseOffcanvas}>Serviços</Nav.Link>
-            <Nav.Link href="#faq" onClick={handleCloseOffcanvas}>FAQ</Nav.Link>
+            <Nav.Link href="#faq" onClick={handleCloseOffcanvas}>Resultados</Nav.Link>
+            <Nav.Link href="#resultados" onClick={handleCloseOffcanvas}>FAQ</Nav.Link>
             <Nav.Link
               href="#contato"
               as={Button}

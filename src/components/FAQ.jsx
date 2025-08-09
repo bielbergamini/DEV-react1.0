@@ -13,8 +13,8 @@ export default function FAQ() {
           As dúvidas que mais recebemos — resposta direta e sem enrolação.
         </p>
 
-        <Accordion defaultActiveKey="0" className="faq-accordion">
-          <Accordion.Item eventKey="0" className="faq-item">
+        <Accordion defaultActiveKey="1" className="faq-accordion">
+          <Accordion.Item eventKey="2" className="faq-item">
             <Accordion.Header>Como funciona o processo de consultoria?</Accordion.Header>
             <Accordion.Body>
               Nosso processo começa com uma reunião para entender a necessidade.
@@ -23,7 +23,7 @@ export default function FAQ() {
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="1" className="faq-item">
+          <Accordion.Item eventKey="3" className="faq-item">
             <Accordion.Header>Quais tecnologias vocês utilizam?</Accordion.Header>
             <Accordion.Body>
               Trabalhamos com stack moderna (React, .NET/ASP.NET, Python, Node),
@@ -32,7 +32,7 @@ export default function FAQ() {
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="2" className="faq-item">
+          <Accordion.Item eventKey="4" className="faq-item">
             <Accordion.Header>Quanto tempo leva para desenvolver um site?</Accordion.Header>
             <Accordion.Body>
               Institucional simples: 2–4 semanas. Sistemas sob medida variam
@@ -40,7 +40,7 @@ export default function FAQ() {
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="3" className="faq-item">
+          <Accordion.Item eventKey="5" className="faq-item">
             <Accordion.Header>Vocês oferecem suporte após a entrega?</Accordion.Header>
             <Accordion.Body>
               Sim. Oferecemos plano de suporte e evolução contínua (SLA, monitoramento,

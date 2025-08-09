@@ -21,7 +21,7 @@ export default function Sobre() {
         className="rounded-4 p-5"
         style={{ backgroundColor: "#1C1244",
             color: "#fff",
-            maxWidth: "70%",             // aumenta a largura
+            maxWidth: "100%",             // aumenta a largura
             padding: "4rem 5rem"
 
          }} // roxo escuro para o card
