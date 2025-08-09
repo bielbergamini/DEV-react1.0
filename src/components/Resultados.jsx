@@ -5,8 +5,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 const resultados = [
   {
     titulo: 'Primeiro Lugar no Google',
-    valor: '89%',
-    descricao: 'Nossos clientes alcançam posições de destaque nas buscas regionais e nacionais.',
+    valor: '80%',
+    descricao: 'Garantimos que nossos clientes se destaquem e sejam facilmente encontrados nas buscas locais e em todo o país.',
     cor: 'linear-gradient(90deg, #7a2ac9ff, #647dee)',
   },
   {
@@ -17,14 +17,14 @@ const resultados = [
   },
   {
     titulo: 'Aumento de Tráfego',
-    valor: '+168%',
-    descricao: 'Crescimento médio do tráfego orgânico nos primeiros meses após implementação.',
+    valor: '+110%',
+    descricao: 'Desenvolvemos para cada projeto uma identidade visual única, criativa e exclusiva.',
     cor: 'linear-gradient(90deg, #8E2DE2, #4A00E0)',
   },
   {
     titulo: 'Performance Score',
-    valor: '98/100',
-    descricao: 'Otimização para velocidade, SEO e acessibilidade em todos os projetos.',
+    valor: '90/100',
+    descricao: 'Todos os projetos são desenvolvidos com foco em desempenho, visibilidade nos buscadores e acessibilidade para todos os usuários.',
     cor: 'linear-gradient(90deg, #3f5efb, #fc466b)',
   },
 ];

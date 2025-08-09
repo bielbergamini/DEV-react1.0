@@ -40,15 +40,12 @@ export default function Sobre() {
                 em soluções digitais
               </h2>
               <p>
-                A DevForce é especializada em criar soluções digitais sob medida
-                para empresas de todos os tamanhos. Nossa especialidade está na
-                criação de ferramentas adaptáveis que visam resolver desafios
-                específicos de cada cliente.
+                A DevForce desenvolve soluções digitais personalizadas para empresas de qualquer porte.
+                Nossa expertise está em criar ferramentas flexíveis, projetadas para atender às demandas e superar os desafios únicos de cada cliente.
               </p>
               <p>
-                Assim como nosso capacete, nos adaptamos às necessidades de cada
-                projeto, encontrando soluções específicas para qualquer desafio.
-                Nosso espírito de inovação permeia todas as atividades.
+                Assim como o nosso capacete simboliza adaptabilidade, moldamo-nos a cada projeto, buscando sempre a resposta ideal para qualquer obstáculo.
+                O espírito inovador é a essência que guia todas as nossas ações.    
               </p>
             </div>
 

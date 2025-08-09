@@ -25,7 +25,7 @@ export default function Contato() {
               <br /> para mentes visionárias
             </h1>
 
-            <p className="mt-3 mb-4">Entre em contato para transformar suas ideias em realidade digital</p>
+            <p className="mt-3 mb-4">Fale conosco e dê vida às suas ideias no mundo digital.</p>
             <ul style={{ listStyle: 'none', padding: 0, lineHeight: '2em' }}>
               <li><strong>SISTEMAS ERP E CRM</strong></li>
               <li><strong>AUTOMAÇÕES INTERNAS</strong></li>
@@ -69,7 +69,7 @@ export default function Contato() {
               <div className="inner-content d-flex flex-column align-items-start">
                 <FaWhatsapp size={30} />
                 <h5 className="mt-2">WhatsApp</h5>
-                <p>Resposta rápida em minutos</p>
+                <p>Resposta rápida</p>
                 <p><strong>+55 (16) 99605-4302</strong></p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Contato() {
               <div className="inner-content d-flex flex-column align-items-start">
                 <FaInstagram size={30} />
                 <h5 className="mt-2">Instagram</h5>
-                <p>Siga nosso trabalho</p>
+                <p>Acompanhe nosso trabalho</p>
                 <p><strong>@devforcee</strong></p>
               </div>
             </div>
